@@ -3,7 +3,7 @@
 //  ImagePickerCropDemo
 //
 //  Created by Frank Schmitt on 4/1/14.
-//  Copyright (c) 2014 Frank Schmitt. All rights reserved.
+//  Copyright (c) 2014 Frank Schmitt. See LICENSE. 
 //
 
 #import "UIImage+ImagePickerCrop.h"
@@ -38,7 +38,7 @@
     CGRect rotatedCropRect = CGRectApplyAffineTransform(cropRect, rotateTransform);
     
     CGImageRef croppedImage = CGImageCreateWithImageInRect([originalImage CGImage], rotatedCropRect);
-    UIImage *result = [UIImage imageWithCGImage:croppedImage scale:2.0 orientation:originalImage.imageOrientation];
+    UIImage *result = [UIImage imageWithCGImage:croppedImage scale:[UIScreen mainScreen].scale orientation:originalImage.imageOrientation];
     CGImageRelease(croppedImage);
     
     return result;
