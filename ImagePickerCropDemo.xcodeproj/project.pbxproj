@@ -395,6 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImagePickerCropDemo/ImagePickerCropDemo-Prefix.pch";
 				INFOPLIST_FILE = "ImagePickerCropDemo/ImagePickerCropDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImagePickerCropDemo/ImagePickerCropDemo-Prefix.pch";
 				INFOPLIST_FILE = "ImagePickerCropDemo/ImagePickerCropDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -472,6 +474,7 @@
 				559E887018EB5DB5002E293B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		559E887118EB5DB5002E293B /* Build configuration list for PBXNativeTarget "ImagePickerCropDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +483,7 @@
 				559E887318EB5DB5002E293B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
