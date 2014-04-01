@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FMSViewController : UIViewController
+@interface FMSViewController : UIViewController <UIScrollViewDelegate, UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 @end
