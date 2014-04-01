@@ -21,6 +21,7 @@
 		559E886118EB5DB5002E293B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559E884318EB5DB5002E293B /* UIKit.framework */; };
 		559E886918EB5DB5002E293B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 559E886718EB5DB5002E293B /* InfoPlist.strings */; };
 		559E886B18EB5DB5002E293B /* ImagePickerCropDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E886A18EB5DB5002E293B /* ImagePickerCropDemoTests.m */; };
+		559E887718EB61C0002E293B /* UIImage+ImagePickerCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 559E887618EB61C0002E293B /* UIImage+ImagePickerCrop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		559E886618EB5DB5002E293B /* ImagePickerCropDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImagePickerCropDemoTests-Info.plist"; sourceTree = "<group>"; };
 		559E886818EB5DB5002E293B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		559E886A18EB5DB5002E293B /* ImagePickerCropDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerCropDemoTests.m; sourceTree = "<group>"; };
+		559E887518EB61C0002E293B /* UIImage+ImagePickerCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImagePickerCrop.h"; path = "../UIImage+ImagePickerCrop.h"; sourceTree = "<group>"; };
+		559E887618EB61C0002E293B /* UIImage+ImagePickerCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImagePickerCrop.m"; path = "../UIImage+ImagePickerCrop.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		559E883318EB5DB4002E293B = {
 			isa = PBXGroup;
 			children = (
+				559E887418EB61A0002E293B /* ImagePickerCrop */,
 				559E884518EB5DB5002E293B /* ImagePickerCropDemo */,
 				559E886418EB5DB5002E293B /* ImagePickerCropDemoTests */,
 				559E883E18EB5DB5002E293B /* Frameworks */,
@@ -150,6 +154,16 @@
 				559E886718EB5DB5002E293B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559E887418EB61A0002E293B /* ImagePickerCrop */ = {
+			isa = PBXGroup;
+			children = (
+				559E887518EB61C0002E293B /* UIImage+ImagePickerCrop.h */,
+				559E887618EB61C0002E293B /* UIImage+ImagePickerCrop.m */,
+			);
+			name = ImagePickerCrop;
+			path = ImagePickerCropDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				559E884C18EB5DB5002E293B /* main.m in Sources */,
+				559E887718EB61C0002E293B /* UIImage+ImagePickerCrop.m in Sources */,
 				559E885618EB5DB5002E293B /* FMSViewController.m in Sources */,
 				559E885018EB5DB5002E293B /* FMSAppDelegate.m in Sources */,
 			);
